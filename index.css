@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2d2895;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #99aab5;
+}
+
+.topnav {
+    background-color: #473fe5;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #5e55ff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.topnav a.active {
+    background-color: #736cfd; 
+    border-radius: 5px;
+    color: white;
+}
+
+.pfp-top {
+    height: 100px; 
+    margin: 20px auto; 
+    margin-bottom: 0px;
+    
+}
+
+.jemoeder {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.box {
+    background-color: #473fe5;
+    padding: 15px;
+    margin: 20px auto; /* Center the box */
+    border-radius: 5px;
+    max-width: 450px; /* Set a maximum width for the box */
+}
+
+.box h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.box p {
+    color: #fff;
+    margin-top: 10px; /* Add some space between the heading and paragraph */
+    text-align: center;
+}
+
+.box button {
+    background-color: #5e55ff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Add some space above the button */
+    
+    
+}
+
+.box button:hover {
+    background-color: #736cfd;
+    
+}
+
+a {
+    color: inherit;
+}
