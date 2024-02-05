@@ -7,175 +7,175 @@
     },
     {
         "title": "HighlightCode",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/HighlightCode/master/dist/HighlightCode.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/HighlightCode/master/dist/HighlightCode.js",
         "desc": "Code highlighting for iOS!?",
         "dev": "mafu"
     },
     {
         "title": "PreviewFile",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/PreviewFile/master/dist/PreviewFile.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/PreviewFile/master/dist/PreviewFile.js",
         "desc": "allow previewing text files",
         "dev": "mafu"
     },
     {
         "title": "FileSizeOnPicker",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/FileSizeOnPicker/master/dist/FileSizeOnPicker.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/FileSizeOnPicker/master/dist/FileSizeOnPicker.js",
         "desc": "Show the size of files in the media picker",
         "dev": "mafu"
     },
     {
         "title": "ShowUserName",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/ShowUserName/master/dist/ShowUserName.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/ShowUserName/master/dist/ShowUserName.js",
         "desc": "Show username in chat views",
         "dev": "mafu"
     },
     {
         "title": "SuppressEmbeds",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/domi-btnr/Enmity-Stuff/main/dist/SuppressEmbeds.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/domi-btnr/Enmity-Stuff/main/dist/SuppressEmbeds.js",
         "desc": "Allows you to Suppress/Unsuppress Embeds",
         "dev": "HypedDomi"
     },
     {
         "title": "UnfollowAllPosts",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/UnfollowAllPosts/master/dist/UnfollowAllPosts.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/UnfollowAllPosts/master/dist/UnfollowAllPosts.js",
         "desc": "Unfollow all posts/threads with one click",
         "dev": "mafu"
     },
     {
         "title": "FreeNitroTheme",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/FreeNitroTheme/master/dist/FreeNitroTheme.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/FreeNitroTheme/master/dist/FreeNitroTheme.js",
         "desc": "Use Nitro Themes for FREE",
         "dev": "mafu"
     },
     {
         "title": "RelationshipNotifier",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/RelationshipNotifier/master/dist/RelationshipNotifier.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/RelationshipNotifier/master/dist/RelationshipNotifier.js",
         "desc": "Notifies you when a friend, group chat, or server removes you",
         "dev": "mafu"
     },
     {
         "title": "BetterBioText",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/BetterBioText/master/dist/BetterBioText.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/BetterBioText/master/dist/BetterBioText.js",
         "desc": "adds some extra actions like copying on Long press, opening a link",
         "dev": "mafu"
     },
     {
         "title": "PrettyErrorBoundary",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/acquitelol/pretty-error-boundary/mistress/dist/PrettyErrorBoundary.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/acquitelol/pretty-error-boundary/mistress/dist/PrettyErrorBoundary.js",
         "desc": "Makes the Discord ErrorBoundary much more pretty and functional. This is my implementation of the Vendetta concept.",
         "dev": "Rosie<3"
     },
     {
         "title": "EnmityYou",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/acquitelol/enmity-you/mistress/dist/EnmityYou.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/acquitelol/enmity-you/mistress/dist/EnmityYou.js",
         "desc": "Allows you to use Enmity inside of the new You Tab. Enable from DevTools Widget \\u279D Design Toggles :3",
         "dev": "Rosie<3"
     },
     {
         "title": "RandomizeFileName",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/RandomizeFileName/master/dist/RandomizeFileName.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/RandomizeFileName/master/dist/RandomizeFileName.js",
         "desc": "Randomize the name of file you upload",
         "dev": "mafu"
     },
     {
         "title": "NoBandwidthKick",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/NoBandwidthKick/master/dist/NoBandwidthKick.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/NoBandwidthKick/master/dist/NoBandwidthKick.js",
         "desc": "this plugin shut up bandwidth police that kicks you from a DM call when you are alone for 3 mins",
         "dev": "mafu"
     },
     {
         "title": "FixEnmityLink",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/FixEnmityLink/master/dist/FixEnmityLink.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/FixEnmityLink/master/dist/FixEnmityLink.js",
         "desc": "make enmity:// link work for all users on any versions!",
         "dev": "mafu"
     },
     {
         "title": "HideRecordButton",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/HideRecordButton/master/dist/HideRecordButton.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/HideRecordButton/master/dist/HideRecordButton.js",
         "desc": "Hide Record Button",
         "dev": "mafu"
     },
     {
         "title": "FakeSticker",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/FakeSticker/master/dist/FakeSticker.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/FakeSticker/master/dist/FakeSticker.js",
         "desc": "Allows you to send stickers without Nitro",
         "dev": "mafu"
     },
     {
         "title": "NoBlockedMessage",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/NoBlockedMessage/master/dist/NoBlockedMessage.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/NoBlockedMessage/master/dist/NoBlockedMessage.js",
         "desc": "Completely remove blocked messages from your chat view",
         "dev": "mafu"
     },
     {
         "title": "MarkAllAsRead",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/MarkAllAsRead/master/dist/MarkAllAsRead.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/MarkAllAsRead/master/dist/MarkAllAsRead.js",
         "desc": "mark all messages as read",
         "dev": "mafu"
     },
     {
         "title": "ConfirmActions",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/ConfirmActions/master/dist/ConfirmActions.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/ConfirmActions/master/dist/ConfirmActions.js",
         "desc": "Prevent you from accidentally doing what you didn't expected to do",
         "dev": "mafu"
     },
     {
         "title": "LocalPin",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/LocalPin/master/dist/LocalPin.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/LocalPin/master/dist/LocalPin.js",
         "desc": "Pin messages locally",
         "dev": "mafu"
     },
     {
         "title": "EnableStaging",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/acquitelol/EnableStaging/mistress/dist/EnableStaging.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/acquitelol/EnableStaging/mistress/dist/EnableStaging.js",
         "desc": "Provides you access to staff-only features by assigning you pseudo-staff.",
         "dev": "dia ♡ & Rosie<3"
     },
     {
         "title": "ThemeFixer",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/amsyarasyiq/enmity-theme-fixer/main/dist/ThemeFixer.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/amsyarasyiq/enmity-theme-fixer/main/dist/ThemeFixer.js",
         "desc": "Workaround for light/AMOLED theme bug introduced by Enmity.",
         "dev": "pylix"
     },
     {
         "title": "ReviewDB",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/StupidityDB/EnmityPlugin/master/dist/ReviewDB.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/StupidityDB/EnmityPlugin/master/dist/ReviewDB.js",
         "desc": "Review other users. These reviews are visible to anyone with this type of plugin on any platform.",
         "dev": "spin & Rosie<3"
     },
     {
         "title": "PronounDB",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/acquitelol/enmity-pronoun-db/main/dist/PronounDB.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/acquitelol/enmity-pronoun-db/main/dist/PronounDB.js",
         "desc": "Displays a Pronoun from PronounDB next to your name in the chat :3",
         "dev": "Acquite<3"
     },
     {
         "title": "BetterStatusIndicator",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/BetterStatusIndicator/master/dist/BetterStatusIndicator.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/BetterStatusIndicator/master/dist/BetterStatusIndicator.js",
         "desc": "Reveal statuses for every platform user is using with customizable color.",
         "dev": "mafu"
     },
     {
         "title": "ConfirmCalls",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/DebianProgrammer/enmity-plugins/main/ConfirmCalls/dist/ConfirmCalls.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/DebianProgrammer/enmity-plugins/main/ConfirmCalls/dist/ConfirmCalls.js",
         "desc": "Confirm calls so you don't wake up your friend at 3:00 AM",
         "dev": "octet-steam"
     },
     {
         "title": "SecretMessage",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/SecretMessage/master/dist/SecretMessage.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/SecretMessage/master/dist/SecretMessage.js",
         "desc": "Send secret message that only your friend can understand.",
         "dev": "mafu"
     },
     {
         "title": "AddonManager",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/AddonManager/master/dist/AddonManager.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/AddonManager/master/dist/AddonManager.js",
         "desc": "Manage plugins & themes easily!",
         "dev": "mafu"
     },
     {
         "title": "GlobalBadges",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/domi-btnr/Enmity-Stuff/main/dist/GlobalBadges.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/domi-btnr/Enmity-Stuff/main/dist/GlobalBadges.js",
         "desc": "Adds global badges from other client mods",
         "dev": "HypedDomi"
     },
@@ -187,49 +187,49 @@
     },
     {
         "title": "K2geLocker",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/K2geLocker/master/dist/K2geLocker.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/K2geLocker/master/dist/K2geLocker.js",
         "desc": "Lock App / Server with passcode!",
         "dev": "mafu"
     },
     {
         "title": "ChatAliases",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/DebianProgrammer/enmity-plugins/main/ChatAliases/dist/ChatAliases.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/DebianProgrammer/enmity-plugins/main/ChatAliases/dist/ChatAliases.js",
         "desc": "Chat aliases... yeah thats it lol",
         "dev": "octet-steam"
     },
     {
         "title": "NoDelete",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/spinfal/enmity-plugins/master/dist/NoDelete.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/spinfal/enmity-plugins/master/dist/NoDelete.js",
         "desc": "Somewhat basic \"Message Logger\"",
         "dev": "Marek (modified by spin)"
     },
     {
         "title": "CustomSlowmode",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/spinfal/enmity-plugins/master/dist/CustomSlowmode.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/spinfal/enmity-plugins/master/dist/CustomSlowmode.js",
         "desc": "Add custom values to the slowmode slider or remove values that you do not want!",
         "dev": "spin"
     },
     {
         "title": "FriendInvites",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/spinfal/enmity-plugins/master/dist/FriendInvites.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/spinfal/enmity-plugins/master/dist/FriendInvites.js",
         "desc": "Easily create a Discord friend invite link to make it easier for users to add you as a friend",
         "dev": "spin"
     },
     {
         "title": "ReplaceTimestamps",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/domi-btnr/Enmity-Stuff/main/dist/ReplaceTimestamps.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/domi-btnr/Enmity-Stuff/main/dist/ReplaceTimestamps.js",
         "desc": "Replaces plaintext 24 hour timestamps into Discord's timestamps",
         "dev": "HypedDomi"
     },
     {
         "title": "PetPet",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/spinfal/enmity-plugins/master/dist/PetPet.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/spinfal/enmity-plugins/master/dist/PetPet.js",
         "desc": "Generate a petpet gif from a given image",
         "dev": "spin"
     },
     {
         "title": "BetterTiktokEmbeds",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/spinfal/enmity-plugins/master/dist/BetterTiktokEmbeds.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/spinfal/enmity-plugins/master/dist/BetterTiktokEmbeds.js",
         "desc": "Convert TikTok links to vm.dstn.to links so the TikTok embed is better and can be played.",
         "dev": "spin"
     },
@@ -247,7 +247,7 @@
     },
     {
         "title": "BetterTwitterEmbeds",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/spinfal/enmity-plugins/master/dist/BetterTwitterEmbeds.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/spinfal/enmity-plugins/master/dist/BetterTwitterEmbeds.js",
         "desc": "Convert Twitter/X links to FxTwitter links so the tweet embed is better.",
         "dev": "spin"
     },
@@ -265,31 +265,31 @@
     },
     {
         "title": "Dislate",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/acquitelol/dislate/main/dist/Dislate.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/acquitelol/dislate/main/dist/Dislate.js",
         "desc": "Translates text into a desired language.",
         "dev": "Acquite<3"
     },
     {
         "title": "CutMessage",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/jqms/enmity-plugins/main/Cut/dist/CutMessage.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/jqms/enmity-plugins/main/Cut/dist/CutMessage.js",
         "desc": "Copy & Delete (thanks to acquite for being gaming lol)",
         "dev": "rosie"
     },
     {
         "title": "CustomDiscordLink",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/jqms/enmity-plugins/main/ChangeDiscordLink/dist/CustomDiscordLink.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/jqms/enmity-plugins/main/ChangeDiscordLink/dist/CustomDiscordLink.js",
         "desc": "Port of that one powercord plugin lol + once again thanks to acquite (and fiore)",
         "dev": "rosie"
     },
     {
         "title": "AccountInfo",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/acquitelol/account-info/main/dist/AccountInfo.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/acquitelol/account-info/main/dist/AccountInfo.js",
         "desc": "Shows Account Information and Account Assets.",
         "dev": "Acquite<3"
     },
     {
         "title": "NoTracking",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/iCrazeiOS/Enmity-Plugins/main/Plugins/NoTracking/dist/NoTracking.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/iCrazeiOS/Enmity-Plugins/main/Plugins/NoTracking/dist/NoTracking.js",
         "desc": "Remove tracking parameters from links you send",
         "dev": "iCraze"
     },
@@ -301,13 +301,13 @@
     },
     {
         "title": "Fart",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/ItzOnlyAnimal/EnmityPloogins/main/Fart/dist/Fart.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/ItzOnlyAnimal/EnmityPloogins/main/Fart/dist/Fart.js",
         "desc": "the epic fart plugin but enmity edition :)",
         "dev": "Animal"
     },
     {
         "title": "ShowHiddenChannels",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/discord-modifications/enmity-addons/main/Plugins/ShowHiddenChannels/dist/ShowHiddenChannels.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/discord-modifications/enmity-addons/main/Plugins/ShowHiddenChannels/dist/ShowHiddenChannels.js",
         "desc": "Displays all hidden channels which can't be accessed, this won't allow you to read them.",
         "dev": "eternal"
     },
@@ -331,19 +331,19 @@
     },
     {
         "title": "MuteNewGuilds",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/attic0001/enmityaddons/main/Plugins/MuteNewGuilds/dist/MuteNewGuilds.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/attic0001/enmityaddons/main/Plugins/MuteNewGuilds/dist/MuteNewGuilds.js",
         "desc": "Automatically mutes newly joined guilds.",
         "dev": "Attic & fiore"
     },
     {
         "title": "CopyRoleColors",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/attic0001/enmityaddons/main/Plugins/CopyRoleColors/dist/CopyRoleColors.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/attic0001/enmityaddons/main/Plugins/CopyRoleColors/dist/CopyRoleColors.js",
         "desc": "Adds option to copy role color in the User Profile context menu.",
         "dev": "Attic & fiore"
     },
     {
         "title": "GithubStats",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/attic0001/enmityaddons/main/Plugins/GithubStats/dist/GithubStats.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/attic0001/enmityaddons/main/Plugins/GithubStats/dist/GithubStats.js",
         "desc": "Fetches github statistics",
         "dev": "Attic & fiore"
     },
@@ -355,7 +355,7 @@
     },
     {
         "title": "UserDetails",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/discord-modifications/enmity-addons/main/Plugins/UserDetails/dist/UserDetails.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/discord-modifications/enmity-addons/main/Plugins/UserDetails/dist/UserDetails.js",
         "desc": "Shows joined at & created at dates on user profiles.",
         "dev": "eternal"
     },
@@ -373,7 +373,7 @@
     },
     {
         "title": "SplitMessages",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/discord-modifications/enmity-addons/main/Plugins/SplitMessages/dist/SplitMessages.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/discord-modifications/enmity-addons/main/Plugins/SplitMessages/dist/SplitMessages.js",
         "desc": "Splits messages over the message length limit into multiple.",
         "dev": "eternal"
     },
@@ -397,19 +397,19 @@
     },
     {
         "title": "PictureLink",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/discord-modifications/enmity-addons/main/Plugins/PictureLink/dist/PictureLink.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/discord-modifications/enmity-addons/main/Plugins/PictureLink/dist/PictureLink.js",
         "desc": "Allows you to click avatars and banners to open them in-app.",
         "dev": "eternal"
     },
     {
         "title": "NSFWGateBypass",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/discord-modifications/enmity-addons/main/Plugins/NSFWGateBypass/dist/NSFWGateBypass.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/discord-modifications/enmity-addons/main/Plugins/NSFWGateBypass/dist/NSFWGateBypass.js",
         "desc": "Bypasses NSFW guild, channel and invite gates.",
         "dev": "eternal"
     },
     {
         "title": "wttr",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/mugman174/Enmity-Plugins/main/docs/plugins/wttr.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/mugman174/Enmity-Plugins/main/docs/plugins/wttr.js",
         "desc": "Get the weather",
         "dev": "Unknown Developer"
     },
@@ -474,60 +474,60 @@
     },
     {
         "title": "ReactDevTools",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/xenos1337/enmity-plugins/main/ReactDevTools/dist/ReactDevTools.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/xenos1337/enmity-plugins/main/ReactDevTools/dist/ReactDevTools.js",
         "desc": "Enables the ability to use React DevTools when using the developer build of enmity.",
         "dev": "xenos & another"
     },
     {
         "title": "FixVoiceMessageCrash",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/FixVoiceMessageCrash/master/dist/FixVoiceMessageCrash.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/FixVoiceMessageCrash/master/dist/FixVoiceMessageCrash.js",
         "desc": "Show voice messages as a normal attachment to avoid crash",
         "dev": "mafu"
     },
     {
         "title": "TrackEdit",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/TrackEdit/master/dist/TrackEdit.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/TrackEdit/master/dist/TrackEdit.js",
         "desc": "Track edits/delete of other's messages",
         "dev": "mafu"
     },
     {
         "title": "UtilityPatches",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/acquitelol/enmity-utility-patches/main/dist/UtilityPatches.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/acquitelol/enmity-utility-patches/main/dist/UtilityPatches.js",
         "desc": "Minor patches/fixes all bundled into a single plugin for convenience.",
         "dev": "Rosie<3"
     },
     {
         "title": "VendettaCompat",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/acquitelol/vendetta-compat/main/dist/VendettaCompat.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/acquitelol/vendetta-compat/main/dist/VendettaCompat.js",
         "dev": "Unknown Developer"
     },
     {
         "title": "FixConnecting",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/m4fn3/FixConnecting/master/dist/FixConnecting.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/FixConnecting/master/dist/FixConnecting.js",
         "desc": "Fix the annoying Connecting bug",
         "dev": "mafu"
     },
     {
         "title": "UnrealProfileThemes",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/Futuremappermydud/Emnity-UnrealProfileThemes/main/dist/UnrealProfileThemes.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/Futuremappermydud/Emnity-UnrealProfileThemes/main/dist/UnrealProfileThemes.js",
         "desc": "Uses hidden 3y3 codes to allow you to change your profile theme colors for anyone using the plugin",
         "dev": "FutureMapper"
     },
     {
         "title": "SpotifyPreview",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/fres621/enmityplugins/main/SpotifyPreview/dist/SpotifyPreview.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/fres621/enmityplugins/main/SpotifyPreview/dist/SpotifyPreview.js",
         "desc": "Lets you preview (30s of audio) Spotify songs by pressing the links.",
         "dev": "fres"
     },
     {
         "title": "ProfileSpotifies",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/Futuremappermydud/Emnity-ProfileSpotifies/main/dist/ProfileSpotifies.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/Futuremappermydud/Emnity-ProfileSpotifies/main/dist/ProfileSpotifies.js",
         "desc": "Allows you to pin spotify links to your profile.",
         "dev": "FutureMapper"
     },
     {
         "title": "ShowConnections",
-        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubuserdesc.com/Futuremappermydud/Emnity-ShowConnections/main/dist/ShowConnections.js",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/Futuremappermydud/Emnity-ShowConnections/main/dist/ShowConnections.js",
         "desc": "Compacts the connection section of the user profile.",
         "dev": "FutureMapper"
     }
