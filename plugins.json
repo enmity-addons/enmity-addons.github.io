@@ -2,8 +2,8 @@
     {
         "title": "ViewRaw",
         "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/aeongdesu/ermplugins/main/plugins/ViewRaw/dist/ViewRaw.js",
-        "desc": "Let's you use any image as a profile banner, without Nitro!",
-        "dev": "Niko"
+        "desc": "View raw message data.",
+        "dev": "sapphire"
     },
     {
         "title": "Splasher",
