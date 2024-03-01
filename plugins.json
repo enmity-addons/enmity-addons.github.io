@@ -1,5 +1,17 @@
 [   
     {
+        "title": "EmotesPlus (Emotes+)",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/byeoon/EmotesPlus/main/dist/EmotesPlus.js",
+        "desc": "Manage your custom emotes/emojis easily.",
+        "dev": "byron"
+        },
+    {
+    "title": "WebhookManager",
+    "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/byeoon/WebhookManager/main/dist/WebhookManager.js",
+    "desc": "Manage your webhooks easily; delete-, send messages, get info and more.",
+    "dev": "byron"
+    },
+    {
         "title": "ViewRaw",
         "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/aeongdesu/ermplugins/main/plugins/ViewRaw/dist/ViewRaw.js",
         "desc": "View raw message data.",
