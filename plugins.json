@@ -1,5 +1,11 @@
 [   
     {
+        "title": "Catgirls v2",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/byeoon/CatgirlsPluginV2/main/dist/Catgirls.js",
+        "desc": "Sends images from nekos.life API. ฅ•ω•ฅ",
+        "dev": "beerpsi, maintained by byron"
+        },
+    {
         "title": "EmotesPlus (Emotes+)",
         "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/byeoon/EmotesPlus/main/dist/EmotesPlus.js",
         "desc": "Manage your custom emotes/emojis easily.",
