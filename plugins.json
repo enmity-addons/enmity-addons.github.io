@@ -1,5 +1,11 @@
 [   
     {
+        "title": "ActionSheetFinder",
+        "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/byeoon/ActionSheetFinder/main/dist/ActionSheetFinder.js",
+        "desc": "A useful utility for plugin developers to figure out what ActionSheet you pressed. Will output as a Toast and additionally will show up in the Debug Logs.",
+        "dev": "byeoon"
+        },
+    {
         "title": "Catgirls v2",
         "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/byeoon/CatgirlsPluginV2/main/dist/Catgirls.js",
         "desc": "Sends images from nekos.life API. ฅ•ω•ฅ",
