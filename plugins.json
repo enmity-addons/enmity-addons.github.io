@@ -9,19 +9,19 @@
         "title": "Catgirls v2",
         "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/byeoon/CatgirlsPluginV2/main/dist/Catgirls.js",
         "desc": "Sends images from nekos.life API. ฅ•ω•ฅ",
-        "dev": "beerpsi, maintained by byron"
+        "dev": "beerpsi, byeoon"
         },
     {
         "title": "EmotesPlus (Emotes+)",
         "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/byeoon/EmotesPlus/main/dist/EmotesPlus.js",
         "desc": "Manage your custom emotes/emojis easily.",
-        "dev": "byron"
+        "dev": "byeoon"
         },
     {
     "title": "WebhookManager",
     "link": "discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/byeoon/WebhookManager/main/dist/WebhookManager.js",
     "desc": "Manage your webhooks easily; delete-, send messages, get info and more.",
-    "dev": "byron"
+    "dev": "byeoon"
     },
     {
         "title": "ViewRaw",
