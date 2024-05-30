@@ -1,64 +1,1457 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./index.css">
-    <title>Enmity Plugins</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#323174">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#323174">
+  <title>Enmity Addons</title>
 
-    <link rel="icon" type="image/png" sizes="128x128" href="./assets/Enmity_Logo_New.png">
-
-    <link rel="apple-touch-icon" sizes="128x128" href="assets/Enmity_Logo_New.png">
-    <link href="./assets/splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-    <link href="./assets/splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-    <link href="./assets/splashscreens/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
-    <link href="./assets/splashscreens/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
-    <link href="./assets/splashscreens/iphonexr_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-    <link href="./assets/splashscreens/iphonexsmax_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
-    <link href="./assets/splashscreens/ipad_splash.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-    <link href="./assets/splashscreens/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-    <link href="./assets/splashscreens/ipadpro3_splash.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-    <link href="./assets/splashscreens/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-    <meta name="apple-mobile-web-app-title" content="Enmity Addons">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-preferred-viewport" content="fullscreen">
-
-
-    <link rel="icon" type="image/png" href="./assets/icon.png">
+    <link rel="icon" type="image/png" href="https://enmity-addons.github.io/assets/icon.png">
     <title>Enmity Plugins</title>
     <meta content="Enmity Addons" property="og:title" />
     <meta content="Enmity's (unofficial) Plugins and Themes website! Click on install to install your addon!" property="og:description" />
     <meta content="https://enmity-addons.github.io/" property="og:url" />
     <meta content="https://enmity-addons.github.io/assets/Enmity_Logo_New.png" property="og:image" />
     <meta content="#5451C1" data-react-helmet="true" name="theme-color" />
-</head>
 
+    <link rel="apple-touch-icon" href="https://enmity-addons.github.io/assets/Enmity_Logo_New.png">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="apple-mobile-web-app-title" content="Enmity Addons">
+</head>
 <body>
 
-
-    <div class="jemoeder">
-        <img src="./assets/icon.png" alt="My pfp, duh" class="pfp-top">
-        </header>
-            <h1>Enmity Plugins</h1>
-        </header>
-		</div>
+  <!-- Title  -->
+  <div style="padding-top: 16px;"></div>
+  <h1 style="color: white; text-align:left; font-size: 35px;">Enmity Addons</h1>
+  
+  <!-- Package Managers table -->
+  <panel style="padding-top: -10px;">
+    <fieldset style="clear:both">
+    <label>Information</label>
+    <div>
+    To install a plugin, click on the "install" button<br>
+    For more info about the plugins please check the server<br><br>
+This website does NOT work inside Discord's built-in browser.
     </div>
+    
+    </fieldset>
+  </panel>
 
-    <div class="box">
-        <p>To install a plugin, click on the "install" button<br><br>
-          For more info about the plugins please check the server<br><br>
-          This website does NOT work inside Discord's built-in browser.
-          </p></p>
-    </div>
 
-    <div id="plugins"></div>
+  <!-- Plugins -->
+  <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>ActionSheetFinder<br>- byeoon</label>
+      <div>
+        A useful utility for plugin developers to figure out what ActionSheet you pressed. Will output as a Toast and additionally will show up in the Debug Logs.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both";>
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/byeoon/ActionSheetFinder/main/dist/ActionSheetFinder.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
 
-    <footer>
-        <p>SerStars_lol</p>
-    </footer>
+  <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>Catgirls v2 <br>- beerpsi & byeeon</label>
+      <div>
+        Sends images from nekos.life API. ฅ•ω•ฅ
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/byeoon/CatgirlsPluginV2/main/dist/Catgirls.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
 
-    <script src="./index.js"></script>
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>EmotesPlus (Emotes+)<br>- byeoon</label>
+      <div>
+        Manage your custom emotes/emojis easily.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/byeoon/EmotesPlus/main/dist/EmotesPlus.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>WebhookManager <br>- byeoon</label>
+      <div>
+        Manage your webhooks easily; delete-, send messages, get info and more.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/byeoon/WebhookManager/main/dist/WebhookManager.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>ViewRaw <br>- sapphire</label>
+      <div>
+        View raw message data.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/aeongdesu/ermplugins/main/plugins/ViewRaw/dist/ViewRaw.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>Splasher <br>- Niko</label>
+      <div>
+        Let's you use any image as a profile banner, without Nitro!
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/hauntii/EnPlugins/main/Splasher/Release/Splasher.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>FreeAppIcons <br>- SerStars</label>
+      <div>
+        Make the new Discord App Icons free.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://serstars.is-a.dev/Plumity/p/freeappicon.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>HighlightCode <br>- mafu</label>
+      <div>
+        Code highlighting for iOS!?
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/HighlightCode/master/dist/HighlightCode.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>PreviewFile <br>- mafu</label>
+      <div>
+        allow previewing text files
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/PreviewFile/master/dist/PreviewFile.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>FileSizeOnPicker <br>- mafu</label>
+      <div>
+        Show the size of files in the media picker
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/FileSizeOnPicker/master/dist/FileSizeOnPicker.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>ShowUserName <br>- mafu</label>
+      <div>
+        Show username in chat views
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/ShowUserName/master/dist/ShowUserName.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+
+  <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>SuppressEmbeds <br>- mafu</label>
+      <div>
+        Unfollow all posts/threads with one click
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/UnfollowAllPosts/master/dist/UnfollowAllPosts.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>FreeNitroTheme <br>- mafu</label>
+      <div>
+        Use Nitro Themes for FREE
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/FreeNitroTheme/master/dist/FreeNitroTheme.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>RelationshipNotifier <br>- mafu</label>
+      <div>
+        Notifies you when a friend, group chat, or server removes you
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/RelationshipNotifier/master/dist/RelationshipNotifier.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>BetterBioText <br>- mafu</label>
+      <div>
+        adds some extra actions like copying on Long press, opening a link
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/BetterBioText/master/dist/BetterBioText.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>PrettyErrorBoundary <br>- Rosie<3</label>
+      <div>
+        Makes the Discord ErrorBoundary much more pretty and functional. This is my implementation of the Vendetta concept.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/acquitelol/pretty-error-boundary/mistress/dist/PrettyErrorBoundary.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>EnmityYou <br>- Rosie<3</label>
+      <div>
+        Allows you to use Enmity inside of the new You Tab. Enable from DevTools Widget \\u279D Design Toggles :3
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/acquitelol/enmity-you/mistress/dist/EnmityYou.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>RandomizeFileName <br>- mafu</label>
+      <div>
+        Randomize the name of file you upload
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>NoBandwidthKick <br>- mafu</label>
+      <div>
+        this plugin shut up bandwidth police that kicks you from a DM call when you are alone for 3 mins
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/NoBandwidthKick/master/dist/NoBandwidthKick.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>FixEnmityLink <br>- mafu</label>
+      <div>
+        make enmity:// link work for all users on any versions!
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/FixEnmityLink/master/dist/FixEnmityLink.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>HideRecordButton <br>- mafu</label>
+      <div>
+        Allows you to send stickers without Nitro
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/FakeSticker/master/dist/FakeSticker.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+
+  <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>NoBlockedMessage <br>- mafu</label>
+      <div>
+        Completely remove blocked messages from your chat view
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/NoBlockedMessage/master/dist/NoBlockedMessage.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>MarkAllAsRead <br>- mafu</label>
+      <div>
+        mark all messages as read
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/MarkAllAsRead/master/dist/MarkAllAsRead.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>ConfirmActions <br>- mafu</label>
+      <div>
+        Prevent you from accidentally doing what you didn't expected to do
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/ConfirmActions/master/dist/ConfirmActions.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>LocalPin <br>- mafu</label>
+      <div>
+        Pin messages locally
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/LocalPin/master/dist/LocalPin.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>EnableStaging <br>- dia ♡ & Rosie<3</label>
+      <div>
+        Provides you access to staff-only features by assigning you pseudo-staff
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/acquitelol/EnableStaging/mistress/dist/EnableStaging.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>ThemeFixer <br>- pylix</label>
+      <div>
+        Workaround for light/AMOLED theme bug introduced by Enmity.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/amsyarasyiq/enmity-theme-fixer/main/dist/ThemeFixer.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>ReviewDB <br>- spin & Rosie<3</label>
+      <div>
+        Review other users. These reviews are visible to anyone with this type of plugin on any platform.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/StupidityDB/EnmityPlugin/master/dist/ReviewDB.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>PronounDB <br>- Acquite<3</label>
+      <div>
+        Displays a Pronoun from PronounDB next to your name in the chat :3
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/acquitelol/enmity-pronoun-db/main/dist/PronounDB.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>BetterStatusIndicator <br>- mafu</label>
+      <div>
+        Reveal statuses for every platform user is using with customizable color.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/BetterStatusIndicator/master/dist/BetterStatusIndicator.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>ConfirmCalls <br>- octet-steam</label>
+      <div>
+        Confirm calls so you don't wake up your friend at 3:00 AM
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/DebianProgrammer/enmity-plugins/main/ConfirmCalls/dist/ConfirmCalls.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+
+  <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>SecretMessage <br>- mafu</label>
+      <div>
+        Send secret message that only your friend can understand.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/SecretMessage/master/dist/SecretMessage.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>AddonManager <br>- mafu</label>
+      <div>
+        Manage plugins & themes easily!
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.co">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>GlobalBadges <br>- HypedDomi</label>
+      <div>
+        description
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/domi-btnr/Enmity-Stuff/main/dist/GlobalBadges.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>Downloader <br>- Conner</label>
+      <div>
+        Install plugins or themes by simply pressing a button.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://github.com/ConnorDoesDev/enmity-plugins/releases/download/Downloader/Downloader.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>K2geLocker <br>- mafu</label>
+      <div>
+        Lock App / Server with passcode!
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/K2geLocker/master/dist/K2geLocker.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>ChatAliases <br>- octet-steam</label>
+      <div>
+        Chat aliases... yeah thats it lol
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/DebianProgrammer/enmity-plugins/main/ChatAliases/dist/ChatAliases.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>NoDelete <br>- Marek (modified by spin)</label>
+      <div>
+        Somewhat basic "Message Logger"
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/spinfal/enmity-plugins/master/dist/NoDelete.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>CustomSlowmode <br>- spin</label>
+      <div>
+        Add custom values to the slowmode slider or remove values that you do not want!
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/spinfal/enmity-plugins/master/dist/CustomSlowmode.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>FriendInvites <br>- spin</label>
+      <div>
+        Easily create a Discord friend invite link to make it easier for users to add you as a friend
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/spinfal/enmity-plugins/master/dist/FriendInvites.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>ReplaceTimestamps <br>- HypedDomi</label>
+      <div>
+        Replaces plaintext 24 hour timestamps into Discord's timestamps
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/domi-btnr/Enmity-Stuff/main/dist/ReplaceTimestamps.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+
+  <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>PetPet <br>- spin</label>
+      <div>
+        Generate a petpet gif from a given image
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/spinfal/enmity-plugins/master/dist/PetPet.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>BetterTiktokEmbeds <br>- spin</label>
+      <div>
+        Convert TikTok links to vm.dstn.to links so the TikTok embed is better and can be played.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/spinfal/enmity-plugins/master/dist/BetterTiktokEmbeds.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>CopyEmbeds <br>- dtenzin & Acquite<3</label>
+      <div>
+        Copy the desc of an embed.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://github.com/SirTenzin/enmity-copy-embed/releases/latest/download/CopyEmbeds.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>GetThatRory <br>- Niko</label>
+      <div>
+        Get some cute rory pics
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://niko.earth/rawgh/EnPlugins/main/GetThatRory/Release/GetThatRory.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>BetterTwitterEmbeds <br>- spin</label>
+      <div>
+        Convert Twitter/X links to FxTwitter links so the tweet embed is better.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/spinfal/enmity-plugins/master/dist/BetterTwitterEmbeds.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>HideGiftButton <br>- ssense</label>
+      <div>
+        Hide the gift button in Chat Input.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://github.com/ssense1337/enmity-plugins/raw/main/HideGiftButton/dist/HideGiftButton.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>SilentTyping <br>- Anonymous Developer</label>
+      <div>
+        Prevents your typing indicator from being shown to other people.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://plugins.panties.moe/plugins/SilentTyping.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>Dislate <br>- Acquite<3</label>
+      <div>
+        Translates text into a desired language.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/acquitelol/dislate/main/dist/Dislate.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>CutMessage <br>- rosie</label>
+      <div>
+        Copy & Delete (thanks to acquite for being gaming lol)
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/jqms/enmity-plugins/main/Cut/dist/CutMessage.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>CustomDiscordLink <br>- rosie</label>
+      <div>
+        Port of that one powercord plugin lol + once again thanks to acquite (and fiore)
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/jqms/enmity-plugins/main/ChangeDiscordLink/dist/CustomDiscordLink.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+
+  <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>AccountInfo <br>- Acquite<3</label>
+      <div>
+        Shows Account Information and Account Assets.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/acquitelol/account-info/main/dist/AccountInfo.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>NoTracking <br>- iCraze</label>
+      <div>
+        Remove tracking parameters from links you send
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/iCrazeiOS/Enmity-Plugins/main/Plugins/NoTracking/dist/NoTracking.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>FilePicker <br>- ssense</label>
+      <div>
+        Wow File Picker on Discord iOS.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://github.com/ssense1337/enmity-plugins/raw/main/FilePicker/dist/FilePicker.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>Fart <br>- Animal</label>
+      <div>
+        the epic fart plugin but enmity edition :)
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/ItzOnlyAnimal/EnmityPloogins/main/Fart/dist/Fart.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>ShowHiddenChannels <br>- eternal</label>
+      <div>
+        Displays all hidden channels which can't be accessed, this won't allow you to read them.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/discord-modifications/enmity-addons/main/Plugins/ShowHiddenChannels/dist/ShowHiddenChannels.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>AccountSwitcher <br>- ssense</label>
+      <div>
+        Switch between multiple accounts.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://github.com/ssense1337/enmity-plugins/raw/main/AccountSwitcher/dist/AccountSwitcher.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>ShowAllActivities <br>- ssense</label>
+      <div>
+        See every status a user has enabled.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://github.com/ssense1337/enmity-plugins/raw/main/ShowAllActivities/dist/ShowAllActivities.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>Dashless <br>- ssense</label>
+      <div>
+        Changes dashes in text channel names to spaces.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://github.com/ssense1337/enmity-plugins/raw/main/Dashless/dist/Dashless.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>MuteNewGuilds <br>- Attic & fiore</label>
+      <div>
+        Automatically mutes newly joined guilds.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/attic0001/enmityaddons/main/Plugins/MuteNewGuilds/dist/MuteNewGuilds.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>CopyRoleColors <br>- Attic & fiore</label>
+      <div>
+        Adds option to copy role color in the User Profile context menu.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/attic0001/enmityaddons/main/Plugins/CopyRoleColors/dist/CopyRoleColors.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+
+  <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>GithubStats <br>- Attic & fiore</label>
+      <div>
+        Fetches github statistics
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/attic0001/enmityaddons/main/Plugins/GithubStats/dist/GithubStats.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>AssetViewer <br>- Invoked</label>
+      <div>
+        Viewer of assets provided by the Enmity Asset API
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://github.com/devicarus/enmity-asset-viewer/releases/download/latest/AssetViewer.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>UserDetails <br>- eternal</label>
+      <div>
+        Shows joined at & created at dates on user profiles.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/discord-modifications/enmity-addons/main/Plugins/UserDetails/dist/UserDetails.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>Unfurl <br>- Niko</label>
+      <div>
+        Shorten or lengthen your URLs!
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://niko.earth/rawgh/EnPlugins/main/Unfurl/Release/Unfurl.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>AllReplyMention <br>- Alyxia</label>
+      <div>
+        Does a load of random crap. (Add replies without mention to the mentions tab)
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://github.com/lexisother/Enmity-Plugins/raw/master/AllReplyMention/dist/AllReplyMention.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>SplitMessages <br>- eternal</label>
+      <div>
+        Splits messages over the message length limit into multiple.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/discord-modifications/enmity-addons/main/Plugins/SplitMessages/dist/SplitMessages.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>CreateWebhooks <br>- colin273</label>
+      <div>
+        Create webhooks from the webhook management screens
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://fifithebulldog.github.io/enmity-addons-store/plugins/CreateWebhooks.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>Freemoji <br>- colin273</label>
+      <div>
+        Send external emoji without Nitro as image links
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://fifithebulldog.github.io/enmity-addons-store/plugins/Freemoji.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>NoReplyMention <br>- colin273</label>
+      <div>
+        Disable reply pings by default
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://fifithebulldog.github.io/enmity-addons-store/plugins/NoReplyMention.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>PictureLink <br>- eternal</label>
+      <div>
+        Allows you to click avatars and banners to open them in-app.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/discord-modifications/enmity-addons/main/Plugins/PictureLink/dist/PictureLink.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+
+  <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>NSFWGateBypass <br>- eternal</label>
+      <div>
+        Bypasses NSFW guild, channel and invite gates.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/discord-modifications/enmity-addons/main/Plugins/NSFWGateBypass/dist/NSFWGateBypass.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>wttr <br>- Anonymous Developer</label>
+      <div>
+        Get the weather
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/mugman174/Enmity-Plugins/main/docs/plugins/wttr.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>UrbanDict <br>- mugman</label>
+      <div>
+        Search Urban Dictionary
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://mugman.catvibers.me/Enmity-Plugins/plugins/UrbanDict.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>owoifier <br>- Anonymous Developer</label>
+      <div>
+        hewwowo ^w^ i am ywouw wowowst nyightmawe
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://beerpiss.github.io/enmity/plugins/owoifier.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>Timestamps <br>- Anonymous Developer</label>
+      <div>
+        No Description
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://beerpiss.github.io/enmity/plugins/Timestamps.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>RawMessage <br>- Anonymous Developer</label>
+      <div>
+        Sends a raw message with Markdown escaped.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://beerpiss.github.io/enmity/plugins/RawMessage.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>Osu <br>- Anonymous Developer</label>
+      <div>
+        Gets information about an osu! player
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://beerpiss.github.io/enmity/plugins/Osu.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>Eval <br>- Anonymous Developer</label>
+      <div>
+        Evaluates JS
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://beerpiss.github.io/enmity/plugins/Eval.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>Emojipasta <br>- Anonymous Developer</label>
+      <div>
+        Generates an emojipasta from \\u25B6\\u{1F449} the \\u{1F44F}\\u{1F458} given \\u{1F448}\\u{1F464} text. \\u{1F631}
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://beerpiss.github.io/enmity/plugins/Emojipasta.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>Catgirls <br>- Anonymous Developer</label>
+      <div>
+        Sends an image from the nekos.life API.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://beerpiss.github.io/enmity/plugins/Catgirls.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+
+  <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>Catboys <br>- Anonymous Developer</label>
+      <div>
+        Sends an image from the catboys.com API.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://beerpiss.github.io/enmity/plugins/Catboys.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>Bottom <br>- Anonymous Developer</label>
+      <div>
+        Translate and send text as bottom \\u{1F97A}
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=ttps://beerpiss.github.io/enmity/plugins/Bottom.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>ReactDevTools <br>- xenos & another</label>
+      <div>
+        Enables the ability to use React DevTools when using the developer build of enmity.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/xenos1337/enmity-plugins/main/ReactDevTools/dist/ReactDevTools.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>FixVoiceMessageCrash <br>- mafu</label>
+      <div>
+        Show voice messages as a normal attachment to avoid crash
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/FixVoiceMessageCrash/master/dist/FixVoiceMessageCrash.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>TrackEdit <br>- mafu</label>
+      <div>
+        Track edits/delete of other's messages
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/TrackEdit/master/dist/TrackEdit.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>UtilityPatches <br>- Rosie<3</label>
+      <div>
+        Minor patches/fixes all bundled into a single plugin for convenience.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/acquitelol/enmity-utility-patches/main/dist/UtilityPatches.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>VendettaCompat <br>- Anonymous Developer</label>
+      <div>
+        No description.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/acquitelol/vendetta-compat/main/dist/VendettaCompat.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>FixConnecting <br>- mafu</label>
+      <div>
+        Fix the annoying Connecting bug
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/m4fn3/FixConnecting/master/dist/FixConnecting.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+      <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>UnrealProfileThemes <br>- FutureMapper</label>
+      <div>
+        Uses hidden 3y3 codes to allow you to change your profile theme colors for anyone using the plugin
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/Futuremappermydud/Emnity-UnrealProfileThemes/main/dist/UnrealProfileThemes.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>SpotifyPreview <br>- fres</label>
+      <div>
+        Lets you preview (30s of audio) Spotify songs by pressing the links.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/fres621/enmityplugins/main/SpotifyPreview/dist/SpotifyPreview.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>ProfileSpotifies <br>- FutureMapper</label>
+      <div>
+        Allows you to pin spotify links to your profile.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/Futuremappermydud/Emnity-ProfileSpotifies/main/dist/ProfileSpotifies.js">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+    <div style="padding-top: 16px;"></div>
+  <panel>
+    <fieldset style="clear:both">
+    <label>ShowConnections <br>- FutureMapper</label>
+      <div>
+        Compacts the connection section of the user profile.
+      </div>
+    </fieldset>
+    <fieldset style="clear:both">
+      <a class="button" href="discord://enmity?id=-1&command=install-plugin&params=https://raw.githubusercontent.com/Futuremappermydud/Emnity-ShowConnections/main/dist/ShowConnections.j">
+        Install Plugin
+      </a>
+    </fieldset>
+  </panel>
+
+
+  <div style="padding-bottom: 40px;"></div>
+  <!-- End -->
+  <script src="https://cdn.jsdelivr.net/npm/ios-pwa-splash@1.0.0/cdn.min.js"></script>
+    <script>iosPWASplash('https://enmity-addons.github.io/assets/icon.png', '#323174');</script>
 </body>
-
-
 </html>
