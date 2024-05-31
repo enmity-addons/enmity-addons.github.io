@@ -19,6 +19,8 @@
             "iconURL": "https://enmity-mod.github.io/repo/CydiaIcon@3x.png",
             "tintColor": "#6D00FF",
             "category": "utilities",
+            "version": "231.1",
+            "downloadURL": "https://github.com/enmity-mod/tweak/releases/latest/download/enmity.ipa",
             "screenshots": {
                 "iphone": [
                     "https://enmity-mod.github.io/repo/screenshots_iphone/chat.png",
@@ -37,7 +39,7 @@
             ],
             "versions": [
                 {
-                    "version": "230",
+                    "version": "231.1",
                     "date": "2024-05-25T12:00:00-05:00",
                     "localizedDescription": "• Update Discord to 230.0",
                     "downloadURL": "https://github.com/enmity-mod/tweak/releases/latest/download/enmity.ipa",
