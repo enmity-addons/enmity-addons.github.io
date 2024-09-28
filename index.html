@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://enmity-addons.github.io/index.css">
+  <link rel="stylesheet" href="index.css">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#323174">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#323174">
   <title>Enmity Addons</title>
@@ -27,8 +27,12 @@
 <body>
 
   <!-- Title  -->
-  <div style="padding-top: 16px;"></div>
   <h1 style="color: white; text-align:left; font-size: 35px;">Enmity Addons</h1>
+
+  <!-- Search Bar -->
+  <div style="margin-bottom: 20px;">
+    <input type="text" id="searchBar" placeholder="Search plugins..." onkeyup="searchPlugins()">
+  </div>
   
   <!-- Info Text -->
   <panel style="padding-top: -10px;">
@@ -37,15 +41,13 @@
     <div>
     To install a plugin, click on the "install" button<br>
     For more info about the plugins please check the server<br><br>
-This website does NOT work inside Discord's built-in browser.
+    This website does NOT work inside Discord's built-in browser.
     </div>
-    
     </fieldset>
   </panel>
 
-
   <!-- Plugins -->
-    <div style="padding-top: 16px;"></div>
+
   <panel>
     <fieldset style="clear:both">
     <label>FolderCollapse<br>- Niko</label>
@@ -59,8 +61,6 @@ This website does NOT work inside Discord's built-in browser.
       </a>
     </fieldset>
   </panel>
-
-  <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>EmotePlus<br>- Byeoon</label>
@@ -74,8 +74,7 @@ This website does NOT work inside Discord's built-in browser.
       </a>
     </fieldset>
   </panel>
-  
-  <div style="padding-top: 16px;"></div>
+
   <panel>
     <fieldset style="clear:both">
     <label>Last.FM<br>- Kief</label>
@@ -89,8 +88,7 @@ This website does NOT work inside Discord's built-in browser.
       </a>
     </fieldset>
   </panel>
-  
-  <div style="padding-top: 16px;"></div>
+
   <panel>
     <fieldset style="clear:both">
     <label>HideChatButtons<br>- SerStars</label>
@@ -104,8 +102,6 @@ This website does NOT work inside Discord's built-in browser.
       </a>
     </fieldset>
   </panel>
-
-  <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>ActionSheetFinder<br>- byeoon</label>
@@ -119,8 +115,6 @@ This website does NOT work inside Discord's built-in browser.
       </a>
     </fieldset>
   </panel>
-
-  <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>Catgirls v2 <br>- beerpsi & byeeon</label>
@@ -135,7 +129,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>WebhookManager <br>- byeoon</label>
@@ -150,7 +143,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>ViewRaw <br>- sapphire</label>
@@ -165,7 +157,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>Splasher <br>- Niko</label>
@@ -180,7 +171,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>FreeAppIcons <br>- SerStars</label>
@@ -195,7 +185,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>HighlightCode <br>- mafu</label>
@@ -210,7 +199,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>PreviewFile <br>- mafu</label>
@@ -225,7 +213,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>FileSizeOnPicker <br>- mafu</label>
@@ -240,7 +227,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>ShowUserName <br>- mafu</label>
@@ -254,8 +240,6 @@ This website does NOT work inside Discord's built-in browser.
       </a>
     </fieldset>
   </panel>
-
-  <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>SuppressEmbeds <br>- mafu</label>
@@ -270,7 +254,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>FreeNitroTheme <br>- mafu</label>
@@ -285,7 +268,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>RelationshipNotifier <br>- mafu</label>
@@ -300,7 +282,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>BetterBioText <br>- mafu</label>
@@ -315,7 +296,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>PrettyErrorBoundary <br>- Rosie<3</label>
@@ -330,7 +310,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>EnmityYou <br>- Rosie<3</label>
@@ -345,7 +324,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>RandomizeFileName <br>- mafu</label>
@@ -360,7 +338,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>NoBandwidthKick <br>- mafu</label>
@@ -375,7 +352,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>FixEnmityLink <br>- mafu</label>
@@ -390,12 +366,11 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>HideRecordButton <br>- mafu</label>
       <div>
-         Hide Record Button
+        Hide Record Button
       </div>
     </fieldset>
     <fieldset style="clear:both">
@@ -405,8 +380,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-
-  <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>NoBlockedMessage <br>- mafu</label>
@@ -421,7 +394,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>MarkAllAsRead <br>- mafu</label>
@@ -436,7 +408,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>ConfirmActions <br>- mafu</label>
@@ -451,7 +422,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>LocalPin <br>- mafu</label>
@@ -466,7 +436,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>EnableStaging <br>- dia ♡ & Rosie<3</label>
@@ -481,7 +450,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>ThemeFixer <br>- pylix</label>
@@ -496,7 +464,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>ReviewDB <br>- spin & Rosie<3</label>
@@ -511,7 +478,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>PronounDB <br>- Acquite<3</label>
@@ -526,7 +492,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>BetterStatusIndicator <br>- mafu</label>
@@ -541,7 +506,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>ConfirmCalls <br>- octet-steam</label>
@@ -556,8 +520,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-
-  <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>SecretMessage <br>- mafu</label>
@@ -572,7 +534,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>AddonManager <br>- mafu</label>
@@ -587,7 +548,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>GlobalBadges <br>- HypedDomi</label>
@@ -602,7 +562,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>Downloader <br>- Conner</label>
@@ -617,7 +576,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>K2geLocker <br>- mafu</label>
@@ -632,7 +590,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>ChatAliases <br>- octet-steam</label>
@@ -647,7 +604,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>NoDelete <br>- Marek (modified by spin)</label>
@@ -662,7 +618,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>CustomSlowmode <br>- spin</label>
@@ -677,7 +632,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>FriendInvites <br>- spin</label>
@@ -692,7 +646,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>ReplaceTimestamps <br>- HypedDomi</label>
@@ -707,8 +660,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-
-  <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>PetPet <br>- spin</label>
@@ -723,7 +674,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>BetterTiktokEmbeds <br>- spin</label>
@@ -738,7 +688,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>CopyEmbeds <br>- dtenzin & Acquite<3</label>
@@ -753,7 +702,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>GetThatRory <br>- Niko</label>
@@ -768,7 +716,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>BetterTwitterEmbeds <br>- spin</label>
@@ -783,7 +730,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>HideGiftButton <br>- ssense</label>
@@ -798,7 +744,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>SilentTyping <br>- Anonymous Developer</label>
@@ -813,7 +758,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>Dislate <br>- Acquite<3</label>
@@ -828,7 +772,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>CutMessage <br>- rosie</label>
@@ -843,7 +786,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>CustomDiscordLink <br>- rosie</label>
@@ -858,8 +800,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-
-  <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>AccountInfo <br>- Acquite<3</label>
@@ -874,7 +814,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>NoTracking <br>- iCraze</label>
@@ -889,7 +828,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>FilePicker <br>- ssense</label>
@@ -904,7 +842,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>Fart <br>- Animal</label>
@@ -919,7 +856,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>ShowHiddenChannels <br>- eternal</label>
@@ -934,7 +870,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>AccountSwitcher <br>- ssense</label>
@@ -949,7 +884,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>ShowAllActivities <br>- ssense</label>
@@ -964,7 +898,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>Dashless <br>- ssense</label>
@@ -979,7 +912,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>MuteNewGuilds <br>- Attic & fiore</label>
@@ -994,7 +926,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>CopyRoleColors <br>- Attic & fiore</label>
@@ -1009,8 +940,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-
-  <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>GithubStats <br>- Attic & fiore</label>
@@ -1025,7 +954,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>AssetViewer <br>- Invoked</label>
@@ -1040,7 +968,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>UserDetails <br>- eternal</label>
@@ -1055,7 +982,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>Unfurl <br>- Niko</label>
@@ -1070,7 +996,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>AllReplyMention <br>- Alyxia</label>
@@ -1085,7 +1010,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>SplitMessages <br>- eternal</label>
@@ -1100,7 +1024,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>CreateWebhooks <br>- colin273</label>
@@ -1115,7 +1038,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>Freemoji <br>- colin273</label>
@@ -1130,7 +1052,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>NoReplyMention <br>- colin273</label>
@@ -1145,7 +1066,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>PictureLink <br>- eternal</label>
@@ -1160,8 +1080,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-
-  <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>NSFWGateBypass <br>- eternal</label>
@@ -1176,7 +1094,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>wttr <br>- Anonymous Developer</label>
@@ -1191,7 +1108,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>UrbanDict <br>- mugman</label>
@@ -1206,7 +1122,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>owoifier <br>- Anonymous Developer</label>
@@ -1221,7 +1136,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>Timestamps <br>- Anonymous Developer</label>
@@ -1236,7 +1150,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>RawMessage <br>- Anonymous Developer</label>
@@ -1251,7 +1164,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>Osu <br>- Anonymous Developer</label>
@@ -1266,7 +1178,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>Eval <br>- Anonymous Developer</label>
@@ -1281,7 +1192,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>Emojipasta <br>- Anonymous Developer</label>
@@ -1296,7 +1206,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>Catgirls <br>- Anonymous Developer</label>
@@ -1311,8 +1220,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-
-  <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>Catboys <br>- Anonymous Developer</label>
@@ -1327,7 +1234,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>Bottom <br>- Anonymous Developer</label>
@@ -1342,7 +1248,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>ReactDevTools <br>- xenos & another</label>
@@ -1357,7 +1262,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>FixVoiceMessageCrash <br>- mafu</label>
@@ -1372,7 +1276,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>TrackEdit <br>- mafu</label>
@@ -1387,7 +1290,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>UtilityPatches <br>- Rosie<3</label>
@@ -1402,7 +1304,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>VendettaCompat <br>- Anonymous Developer</label>
@@ -1417,7 +1318,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>FixConnecting <br>- mafu</label>
@@ -1432,7 +1332,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-      <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>UnrealProfileThemes <br>- FutureMapper</label>
@@ -1447,7 +1346,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>SpotifyPreview <br>- fres</label>
@@ -1462,7 +1360,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>ProfileSpotifies <br>- FutureMapper</label>
@@ -1477,7 +1374,6 @@ This website does NOT work inside Discord's built-in browser.
     </fieldset>
   </panel>
 
-    <div style="padding-top: 16px;"></div>
   <panel>
     <fieldset style="clear:both">
     <label>ShowConnections <br>- FutureMapper</label>
@@ -1491,11 +1387,45 @@ This website does NOT work inside Discord's built-in browser.
       </a>
     </fieldset>
   </panel>
-
+  </div>
 
   <div style="padding-bottom: 40px;"></div>
   <!-- End -->
   <script src="https://cdn.jsdelivr.net/npm/ios-pwa-splash@1.0.0/cdn.min.js"></script>
-    <script>iosPWASplash('https://enmity-addons.github.io/assets/icon.png', '#323174');</script>
+  <script>iosPWASplash('https://enmity-addons.github.io/assets/icon.png', '#323174');</script>
+
+  <!-- JavaScript for Search Functionality -->
+  <script>
+  function searchPlugins() {
+  let input = document.getElementById('searchBar').value.toLowerCase();
+  let plugins = document.querySelectorAll('panel');
+  let infoDiv = document.querySelector('div[style="padding-top: 16px;"]');
+  let hasVisiblePlugins = false;
+
+  plugins.forEach(function(panel) {
+    let label = panel.querySelector('label').innerText.toLowerCase();
+    if (label.includes(input)) {
+      panel.style.display = '';
+      hasVisiblePlugins = true;
+    } else {
+      panel.style.display = 'none';
+    }
+  });
+
+  if (infoDiv) {
+    if (hasVisiblePlugins) {
+      infoDiv.remove();
+    } else {
+      if (!document.body.contains(infoDiv)) {
+        let newDiv = document.createElement('div');
+        newDiv.style.paddingTop = '16px';
+        newDiv.innerHTML = '';
+        document.body.appendChild(newDiv);
+      }
+    }
+  }
+}
+
+  </script>
 </body>
 </html>
