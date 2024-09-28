@@ -1,0 +1,101 @@
+{
+  "name": "Enmity",
+  "subtitle": "Add plugins and themes to Discord!",
+  "description": "Add plugins and themes to Discord!",
+  "website": "https://enmity.unbound.rip/",
+  "iconURL": "https://enmity-mod.github.io/repo/CydiaIcon@3x.png",
+  "tintColor": "#6D00FF",
+  "apps": [
+    {
+      "name": "Enmity",
+      "bundleIdentifier": "com.hammerandchisel.discord",
+      "developerName": "Enmity Team",
+      "subtitle": "Add plugins and themes to Discord!",
+      "localizedDescription": "Add plugins and themes to Discord!",
+      "iconURL": "https://picsum.photos/seed/com.hammerandchisel.discord/512/512",
+      "tintColor": "#6D00FF",
+      "category": "utilities",
+      "screenshots": {
+        "iphone": [
+          {
+            "imageURL": "https://enmity-mod.github.io/repo/screenshots_iphone/chat.png",
+            "width": 1284,
+            "height": 2778
+          },
+          {
+            "imageURL": "https://enmity-mod.github.io/repo/screenshots_iphone/plugins.png",
+            "width": 1284,
+            "height": 2778
+          },
+          {
+            "imageURL": "https://enmity-mod.github.io/repo/screenshots_iphone/profile.png",
+            "width": 1284,
+            "height": 2778
+          },
+          {
+            "imageURL": "https://enmity-mod.github.io/repo/screenshots_iphone/settings.png",
+            "width": 1284,
+            "height": 2778
+          }
+        ],
+        "ipad": [
+          {
+            "imageURL": "https://enmity-mod.github.io/repo/screenshots_ipad/chat.png",
+            "width": 1000,
+            "height": 692
+          },
+          {
+            "imageURL": "https://enmity-mod.github.io/repo/screenshots_ipad/plugins.png",
+            "width": 1000,
+            "height": 692
+          },
+          {
+            "imageURL": "https://enmity-mod.github.io/repo/screenshots_ipad/profile.png",
+            "width": 1000,
+            "height": 692
+          },
+          {
+            "imageURL": "https://enmity-mod.github.io/repo/screenshots_ipad/settings.png",
+            "width": 1000,
+            "height": 692
+          }
+        ]
+      },
+      "versions": [
+        {
+          "version": "248.0",
+          "date": "2024-09-28T22:55:57+02:00",
+          "localizedDescription": "Update Discord to 248.0",
+          "downloadURL": "https://example.com/Enmity.ipa",
+          "size": 104196816,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.security.application-groups",
+          "com.apple.developer.avfoundation.multitasking-camera-access",
+          "com.apple.developer.associated-appclip-app-identifiers",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.storekit.request-data",
+          "aps-environment"
+        ],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "By allowing access to your library, you'll be able to download photos and videos.",
+          "NSMicrophoneUsageDescription": "By allowing access to your microphone, you'll be able to talk in calls.",
+          "NSLocalNetworkUsageDescription": "Allow Discord access to your local network to find devices using the same internet connection.",
+          "NSBluetoothAlwaysUsageDescription": "To connect to your devices",
+          "NSLocationAlwaysUsageDescription": "To enable services that require location",
+          "NSContactsUsageDescription": "We can help you find people you know on Discord. Your contacts will be regularly sent to us so you can connect with friends. You can turn this off any time.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "To enable services that require location",
+          "NSCameraUsageDescription": "By allowing access to your camera, you can take pictures and others will be able to see you in voice and video calls.",
+          "NSBluetoothPeripheralUsageDescription": "To connect to your devices",
+          "NSPhotoLibraryUsageDescription": "By allowing us access to your photos, you will be able to upload images as an avatar, server icon, and more, and you can send photos and videos to your friends and communities.",
+          "NSLocationWhenInUseUsageDescription": "To enable services that require location"
+        }
+      }
+    }
+  ]
+}
