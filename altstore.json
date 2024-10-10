@@ -64,11 +64,10 @@
       "versions": [
         {
           "version": "250.0",
-          "date": "2024-10-10T22:56:31+02:00",
-          "localizedDescription": "Bug fixes and improvements.",
-          "downloadURL": "https://example.com/Enmity.ipa",
+          "date": "2024-10-08T22:56:31+02:00",
+          "localizedDescription": "Update Discord to 250.0",
+          "downloadURL": "https://github.com/enmity-mod/tweak/releases/latest/download/Enmity.ipa",
           "size": 104295166,
-          "sha256": "66427347e5c5137bdee127627902c8b83cc421c29ef128544d440b996711e15b",
           "minOSVersion": "15.0"
         }
       ],
