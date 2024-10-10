@@ -63,37 +63,38 @@
       },
       "versions": [
         {
-          "version": "248.0",
-          "date": "2024-09-24T22:55:57+02:00",
-          "localizedDescription": "Update Discord to 248.0",
-          "downloadURL": "https://github.com/enmity-mod/tweak/releases/latest/download/Enmity.ipa",
-          "size": 104196816,
+          "version": "250.0",
+          "date": "2024-10-10T22:56:31+02:00",
+          "localizedDescription": "Bug fixes and improvements.",
+          "downloadURL": "https://example.com/Enmity.ipa",
+          "size": 104295166,
+          "sha256": "66427347e5c5137bdee127627902c8b83cc421c29ef128544d440b996711e15b",
           "minOSVersion": "15.0"
         }
       ],
       "appPermissions": {
         "entitlements": [
-          "com.apple.developer.kernel.increased-memory-limit",
-          "com.apple.security.application-groups",
-          "com.apple.developer.avfoundation.multitasking-camera-access",
-          "com.apple.developer.associated-appclip-app-identifiers",
-          "com.apple.developer.associated-domains",
           "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.associated-appclip-app-identifiers",
+          "com.apple.developer.kernel.increased-memory-limit",
+          "com.apple.developer.avfoundation.multitasking-camera-access",
+          "com.apple.developer.associated-domains",
           "com.apple.developer.storekit.request-data",
+          "com.apple.security.application-groups",
           "aps-environment"
         ],
         "privacy": {
-          "NSPhotoLibraryAddUsageDescription": "By allowing access to your library, you'll be able to download photos and videos.",
-          "NSMicrophoneUsageDescription": "By allowing access to your microphone, you'll be able to talk in calls.",
-          "NSLocalNetworkUsageDescription": "Allow Discord access to your local network to find devices using the same internet connection.",
+          "NSPhotoLibraryUsageDescription": "By allowing us access to your photos, you will be able to upload images as an avatar, server icon, and more, and you can send photos and videos to your friends and communities.",
           "NSBluetoothAlwaysUsageDescription": "To connect to your devices",
           "NSLocationAlwaysUsageDescription": "To enable services that require location",
-          "NSContactsUsageDescription": "We can help you find people you know on Discord. Your contacts will be regularly sent to us so you can connect with friends. You can turn this off any time.",
           "NSLocationAlwaysAndWhenInUseUsageDescription": "To enable services that require location",
+          "NSContactsUsageDescription": "We can help you find people you know on Discord. Your contacts will be regularly sent to us so you can connect with friends. You can turn this off any time.",
           "NSCameraUsageDescription": "By allowing access to your camera, you can take pictures and others will be able to see you in voice and video calls.",
+          "NSMicrophoneUsageDescription": "By allowing access to your microphone, you'll be able to talk in calls.",
           "NSBluetoothPeripheralUsageDescription": "To connect to your devices",
-          "NSPhotoLibraryUsageDescription": "By allowing us access to your photos, you will be able to upload images as an avatar, server icon, and more, and you can send photos and videos to your friends and communities.",
-          "NSLocationWhenInUseUsageDescription": "To enable services that require location"
+          "NSLocalNetworkUsageDescription": "Allow Discord access to your local network to find devices using the same internet connection.",
+          "NSLocationWhenInUseUsageDescription": "To enable services that require location",
+          "NSPhotoLibraryAddUsageDescription": "By allowing access to your library, you'll be able to download photos and videos."
         }
       }
     }
